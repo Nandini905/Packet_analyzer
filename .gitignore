@@ -1,0 +1,31 @@
+# ---- Build output ----
+out/
+target/
+*.class
+
+# ---- Compiled JAR (built locally, not committed) ----
+*.jar
+
+# ---- Maven wrapper ----
+.mvn/
+mvnw
+mvnw.cmd
+
+# ---- Test / run output PCAP files ----
+*.pcap
+
+# ---- Build helper files ----
+manifest.txt
+sources.txt
+
+# ---- IDE ----
+.idea/
+*.iml
+.vscode/
+*.project
+*.classpath
+.settings/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
